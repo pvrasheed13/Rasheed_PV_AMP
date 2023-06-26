@@ -9,8 +9,6 @@ const reporters = require('./reporters');
 
 dotenv.config();
 
-const parallelExecutionThreads = process.env.PARALLEL_EXECUTION === 'true' ? 5 : 1
-
 exports.config = {
   params: {},
   async: false,
@@ -49,7 +47,6 @@ exports.config = {
   // from the same test should run tests.
   //
   capabilities,
-  maxInstances: parallelExecutionThreads,
   //
   // ===================
   // Test Configurations

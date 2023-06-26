@@ -1,30 +1,12 @@
-[2023-06-23T22:18:33.210] [INFO] execution - URL - https://www.makemytrip.com - launched successfully
-[2023-06-23T22:18:33.862] [INFO] execution - Clicked on FromCity
-[2023-06-23T22:18:38.368] [INFO] execution - Waited for - 4
-[2023-06-23T22:18:38.895] [INFO] execution - Entered text in the element ${locatorName}
-[2023-06-23T22:18:43.320] [INFO] execution - Waited for - 4
-[2023-06-23T22:18:43.793] [INFO] execution - Clicked on selectCity
-[2023-06-23T22:18:48.179] [INFO] execution - Waited for - 4
-[2023-06-23T22:18:48.632] [INFO] execution - Clicked on ToCity
-[2023-06-23T22:18:53.027] [INFO] execution - Waited for - 4
-[2023-06-23T22:18:53.484] [INFO] execution - Entered text in the element ${locatorName}
-[2023-06-23T22:18:57.812] [INFO] execution - Waited for - 4
-[2023-06-23T22:18:58.293] [INFO] execution - Clicked on selectCity
-[2023-06-23T22:19:02.703] [INFO] execution - Waited for - 4
-[2023-06-23T22:19:03.203] [INFO] execution - Clicked on Selectdate
-[2023-06-23T22:19:03.715] [INFO] execution - Clicked on nextMonth
-[2023-06-23T22:19:04.131] [INFO] execution - Clicked on SelectDay
-[2023-06-23T22:19:08.548] [INFO] execution - Waited for - 4
-[2023-06-23T22:19:09.119] [INFO] execution - Clicked on traveller
-[2023-06-23T22:19:11.661] [INFO] execution - Clicked on adult
-[2023-06-23T22:19:12.082] [INFO] execution - Clicked on children
-[2023-06-23T22:19:12.526] [INFO] execution - Clicked on infant
-[2023-06-23T22:19:12.944] [INFO] execution - Clicked on class
-[2023-06-23T22:19:13.384] [INFO] execution - Clicked on Apply
-[2023-06-23T22:19:13.882] [INFO] execution - Clicked on Search
-[2023-06-23T22:19:25.389] [INFO] execution - Waited for - 6
-[2023-06-23T22:19:38.413] [INFO] execution - Clicked on ClosePopup
-[2023-06-23T22:19:38.839] [INFO] execution - Clicked on Filter
-[2023-06-23T22:19:39.213] [INFO] execution - Displayed values for locator AirlinesNames
-[2023-06-23T22:19:39.563] [INFO] execution - Displayed values for locator AirlinePrice
-[2023-06-23T22:19:39.923] [INFO] execution - Displayed values for locator AirlineDuration
+[2023-06-26T14:32:45.228] [INFO] execution - URL - https://www.amazon.in/ - launched successfully
+[2023-06-26T14:32:46.181] [INFO] execution - Clicked on all_CTA
+[2023-06-26T14:32:47.016] [INFO] execution - Fashion Element Displayed - Expected true | Actual - true
+[2023-06-26T14:32:51.441] [INFO] execution - Waited for - 4
+[2023-06-26T14:32:52.049] [INFO] execution - Scrolling the page to view the Fashion
+[2023-06-26T14:32:56.576] [INFO] execution - Waited for - 4
+[2023-06-26T14:32:57.164] [INFO] execution - Clicked on Fashion
+[2023-06-26T14:33:01.679] [INFO] execution - Waited for - 4
+[2023-06-26T14:33:02.413] [INFO] execution - Clicked on Shirts
+[2023-06-26T14:33:09.500] [INFO] execution - Waited for - 4
+[2023-06-26T14:33:10.206] [INFO] execution - Hovered on element HoverProd succcessfully
+[2023-06-26T14:33:14.623] [INFO] execution - Waited for - 4

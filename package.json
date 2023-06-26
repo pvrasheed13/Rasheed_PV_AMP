@@ -13,7 +13,7 @@
     "url": "git+https://github.com/Deloitte/NimbleAutom8.git"
   },
   "bin": {
-    "@deloitte/web": "./index.js"
+    "web": "index.js"
   },
   "keywords": [
     "Web",
@@ -33,7 +33,7 @@
   "homepage": "https://github.com/Deloitte/NimbleAutom8#readme",
   "dependencies": {
     "@cucumber/cucumber": "^8.11.1",
-    "@deloitte/web": "^1.0.19",
+    "@deloitte/web": "^1.0.28",
     "flat": "^5.0.2",
     "readdir": "^1.0.2",
     "wdio-cucumberjs-json-reporter": "^4.4.3",
