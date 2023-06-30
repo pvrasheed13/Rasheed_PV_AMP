@@ -1,12 +1,47 @@
-[2023-06-26T14:32:45.228] [INFO] execution - URL - https://www.amazon.in/ - launched successfully
-[2023-06-26T14:32:46.181] [INFO] execution - Clicked on all_CTA
-[2023-06-26T14:32:47.016] [INFO] execution - Fashion Element Displayed - Expected true | Actual - true
-[2023-06-26T14:32:51.441] [INFO] execution - Waited for - 4
-[2023-06-26T14:32:52.049] [INFO] execution - Scrolling the page to view the Fashion
-[2023-06-26T14:32:56.576] [INFO] execution - Waited for - 4
-[2023-06-26T14:32:57.164] [INFO] execution - Clicked on Fashion
-[2023-06-26T14:33:01.679] [INFO] execution - Waited for - 4
-[2023-06-26T14:33:02.413] [INFO] execution - Clicked on Shirts
-[2023-06-26T14:33:09.500] [INFO] execution - Waited for - 4
-[2023-06-26T14:33:10.206] [INFO] execution - Hovered on element HoverProd succcessfully
-[2023-06-26T14:33:14.623] [INFO] execution - Waited for - 4
+[2023-06-30T11:07:48.521] [INFO] execution - URL - https://www.amazon.in/ - launched successfully
+[2023-06-30T11:07:49.542] [INFO] execution - Clicked on all_CTA
+[2023-06-30T11:07:50.490] [INFO] execution - Fashion Element Displayed - Expected true | Actual - true
+[2023-06-30T11:07:54.978] [INFO] execution - Waited for - 4
+[2023-06-30T11:07:55.511] [INFO] execution - Scrolling the page to view the Fashion
+[2023-06-30T11:07:59.960] [INFO] execution - Waited for - 4
+[2023-06-30T11:08:00.466] [INFO] execution - Clicked on Fashion
+[2023-06-30T11:08:04.923] [INFO] execution - Waited for - 4
+[2023-06-30T11:08:05.558] [INFO] execution - Clicked on Shirts
+[2023-06-30T11:08:12.714] [INFO] execution - Waited for - 4
+[2023-06-30T11:08:13.322] [INFO] execution - Hovered on element HoverProd succcessfully
+[2023-06-30T11:08:17.690] [INFO] execution - Waited for - 4
+[2023-06-30T11:08:18.127] [INFO] execution - Clicked on QuickLook
+[2023-06-30T11:08:22.675] [INFO] execution - Waited for - 4
+[2023-06-30T11:08:23.223] [INFO] execution - Clicked on SeeProdDetails
+[2023-06-30T11:08:35.244] [INFO] execution - Waited for - 4
+[2023-06-30T11:08:35.787] [INFO] execution - Selected XL from the SelectSize dropdown
+[2023-06-30T11:08:40.221] [INFO] execution - Waited for - 4
+[2023-06-30T11:08:40.839] [INFO] execution - Clicked on Color
+[2023-06-30T11:08:41.244] [INFO] execution - Get text in the element ProductSize: Select
+S
+M
+L
+XL
+[2023-06-30T11:08:41.670] [INFO] execution - Get text in the element ProductName: GRITSTONES Men's Regular Fit Shirt
+[2023-06-30T11:08:42.082] [INFO] execution - Get text in the element ProductPrice: -82% 
+₹357
+₹357
+M.R.P.: 
+₹1,999
+₹1,999
+[2023-06-30T11:08:43.073] [INFO] execution - Get text in the element ProductQTY: 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+[2023-06-30T11:08:43.881] [INFO] execution - ProductName Element Displayed - Expected true | Actual - true
+[2023-06-30T11:08:43.891] [INFO] execution - Color Element Displayed - Expected true | Actual - true
+[2023-06-30T11:08:43.996] [INFO] execution - Clicked on AddtoCart
+[2023-06-30T11:08:55.969] [INFO] execution - Waited for - 4
+[2023-06-30T11:08:56.448] [INFO] execution - Clicked on GotoCart
+[2023-06-30T11:09:03.594] [INFO] execution - Compared the element CartCount: 1

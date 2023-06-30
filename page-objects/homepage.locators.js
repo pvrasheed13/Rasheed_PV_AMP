@@ -4,7 +4,7 @@ module.exports = {
   all_CTA: '//*[@id="nav-hamburger-menu"]/i',
   Fashion: '#hmenu-content > ul:nth-child(1) > li:nth-child(17) > a',
   Shirts: "//a[normalize-space()='Shirts']",
-  HoverProd: "(//div[@class='a-section octopus-pc-item-hue-shield octopus-pc-item-image-background-v3'])[3]",
+  HoverProd: "(//div[@class='a-section octopus-pc-item-hue-shield octopus-pc-item-image-background-v3'])[4]",
   QuickLook: "//li[@class='octopus-pc-item octopus-pc-item-v3 octopus-pc-item-last']//input[@type='submit']",
   SeeProdDetails: "//div[@id='a-popover-content-1']//a[@class='a-button-text'][normalize-space()='See product details']",
   SelectSize: '//*[@id="native_dropdown_selected_size_name"]',

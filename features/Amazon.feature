@@ -6,14 +6,14 @@ Feature: Amazon | Home
 
 
   Scenario Outline: Clicking on All Button and scroll | Home
-    When I click "all_CTA"
+    Then I click "all_CTA"
     And I should see "Fashion"
     Then I wait for "4" seconds
 
   Scenario Outline: Clicking on Mens Fashion | Home
     Then I scroll to see the element "Fashion"
-    Then I wait for "4" seconds
-    When I click "Fashion"
+    When I wait for "4" seconds
+    Then I click "Fashion"
 
   Scenario Outline: Selecting Sub menu Shirts | Home
     When I wait for "4" seconds
@@ -22,13 +22,14 @@ Feature: Amazon | Home
 
   Scenario Outline: Open Product and select the size and color | Home
     Then I hover on element "HoverProd"
-    When I wait for "4" seconds
-    And I click "QuickLook"
-    And I click "SeeProdDetails"
+    And I wait for "4" seconds
+    Then I click "QuickLook"
+    And I wait for "4" seconds
+    Then I click "SeeProdDetails"
     Then I wait for "4" seconds
     Then I select "XL" from the visible text of "SelectSize" dropdown
     Then I wait for "4" seconds
-    And I click "Color"
+    Then I click "Color"
     When I get the text for "ProductSize"
     When I get the text for "ProductName"
     When I get the text for "ProductPrice"
@@ -42,9 +43,9 @@ Feature: Amazon | Home
 
 
   Scenario Outline: Add to Cart and Navigate to cart page | Home
-    When I click "AddtoCart"
-    Then I wait for "4" seconds
-    And I click "GotoCart"
+    Then I click "AddtoCart"
+    And I wait for "4" seconds
+    Then I click "GotoCart"
     When I compare the value of "CartCount" to "1"
 
 
